@@ -4,7 +4,7 @@ Small C programs and tests.
 
 ## Power of Two
 
-`hello.c` demonstrates checking whether a signed integer is a power of two using bit operations.
+`bit_operations.c` demonstrates checking whether a signed integer is a power of two using bit operations.
 
 ```c
 return n > 0 && (n & (n - 1)) == 0;
@@ -17,7 +17,7 @@ The function returns `true` only for positive powers of two. Zero and negative n
 Build and run the demo:
 
 ```bash
-gcc -Wall -Wextra -Werror -std=c11 -o hello hello.c
+make
 ./hello
 ```
 
